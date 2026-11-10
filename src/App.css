@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: #93b9df;
+    color: #1f2937;
+    font-family: Arial, sans-serif;
+  }
+
+.user-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 20px auto;
+  }
+  
+  .user-card,
+  .auth-card {
+    padding: 22px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgb(31 41 55 / 8%);
+  }
+  
+  .user-card h3,
+  .auth-card h3 {
+    margin-top: 0;
+    color: #1d4ed8;
+  }
+  
+  .user-card p {
+    margin: 10px 0;
+    color: #475569;
+  }
+  
+  .auth-card {
+    max-width: 420px;
+    margin: 24px auto;
+    text-align: center;
+  }
+  
+  .action-button {
+    padding: 10px 18px;
+    border: 0;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background: #1d4ed8;
+  }

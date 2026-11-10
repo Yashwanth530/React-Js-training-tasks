@@ -1,6 +1,9 @@
 import React from 'react'
+import './App.css'
 import Selfintro from './Selfintro'
 import Userdetails from './Userdetails'
+import ConditionalRendering from './component/conditionalrendering'
+import ListRendering from './component/ListRendering'
 
 export default function App() {
   const name1 = "yash"
@@ -35,6 +38,8 @@ export default function App() {
 
   return (
     <div>
+      <ListRendering/>
+      <ConditionalRendering />
       <Selfintro />
       <Userdetails name={name1} city={city1} age={age1} email={email1} phonenumber={phonenumber1}/>
       <Userdetails name={name2} city={city2} age={age2} email={email2} phonenumber={phonenumber2}/>

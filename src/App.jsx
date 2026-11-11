@@ -4,6 +4,8 @@ import Selfintro from './Selfintro'
 import Userdetails from './Userdetails'
 import ConditionalRendering from './component/conditionalrendering'
 import ListRendering from './component/ListRendering'
+import Usestatehook from './component/Usestatehook'
+import Darkmode from './component/Darkmode'
 
 export default function App() {
   const name1 = "yash"
@@ -38,6 +40,9 @@ export default function App() {
 
   return (
     <div>
+      <Darkmode/>
+
+      <Usestatehook/>
       <ListRendering/>
       <ConditionalRendering />
       <Selfintro />

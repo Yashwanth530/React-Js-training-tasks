@@ -7,6 +7,7 @@ import ListRendering from './component/ListRendering'
 import Usestatehook from './component/Usestatehook'
 import Darkmode from './component/Darkmode'
 import ConditionalUsehookstate from './component/ConditinalUsestate'
+import Useeffecthook from './component/Useeffecthook'
 
 export default function App() {
   const name1 = "yash"
@@ -41,6 +42,7 @@ export default function App() {
 
   return (
     <div>
+      <Useeffecthook />
       <ConditionalUsehookstate/>
       <Darkmode/>
 

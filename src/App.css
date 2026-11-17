@@ -4,6 +4,152 @@ body {
     color: #1f2937;
     font-family: Arial, sans-serif;
   }
+
+  .api-page {
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: #f3f6fb;
+    color: #172033;
+    font-family: Arial, sans-serif;
+  }
+  
+  .api-container {
+    width: min(100%, 1100px);
+    margin: 0 auto;
+  }
+  
+  .api-header {
+    margin-bottom: 28px;
+    text-align: center;
+  }
+  
+  .api-eyebrow {
+    margin: 0 0 8px;
+    color: #2563eb;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  
+  .api-header h1 {
+    margin: 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+  }
+  
+  .api-header > p:last-child {
+    color: #64748b;
+  }
+  
+  .api-message,
+  .user-count {
+    color: #475569;
+    text-align: center;
+  }
+  
+  .api-error {
+    max-width: 560px;
+    margin: 24px auto;
+    padding: 20px;
+    border: 1px solid #fecaca;
+    border-radius: 12px;
+    background: #fef2f2;
+    color: #991b1b;
+    text-align: center;
+  }
+  
+  .retry-button {
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 8px;
+    background: #2563eb;
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .retry-button:hover {
+    background: #1d4ed8;
+  }
+  
+  .user-count {
+    margin-bottom: 16px;
+  }
+  
+  .user-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+    gap: 18px;
+  }
+  
+  .user-card {
+    padding: 22px;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 5px 18px rgb(15 23 42 / 6%);
+    overflow-wrap: anywhere;
+  }
+  
+  .user-card-heading {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .user-id {
+    color: #64748b;
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+  
+  .user-card h2 {
+    margin: 8px 0 4px;
+    color: #1d4ed8;
+    font-size: 1.25rem;
+  }
+  
+  .user-username {
+    margin: 0;
+    color: #64748b;
+  }
+  
+  .user-details {
+    display: grid;
+    gap: 14px;
+    margin: 18px 0 0;
+  }
+  
+  .user-details dt {
+    margin-bottom: 4px;
+    color: #64748b;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .user-details dd {
+    margin: 0;
+  }
+  
+  .user-details a {
+    color: #1d4ed8;
+    text-decoration: none;
+  }
+  
+  .user-details a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 480px) {
+    .api-page {
+      padding: 28px 14px;
+    }
+  
+    .user-card {
+      padding: 18px;
+    }
+  }
   .registration-page {
     min-height: 100vh;
     box-sizing: border-box;
